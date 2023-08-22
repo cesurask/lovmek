@@ -62,8 +62,8 @@ const Admin = () => {
   const history = useHistory();
 
   useEffect(() => {
-    if (history.location.pathname === "/admin") {
-      history.push("/admin/dashboard");
+    if (history.location.pathname === "/hasan") {
+      history.push("/hasan/dashboard");
     } // eslint-disable-next-line
   }, []);
 

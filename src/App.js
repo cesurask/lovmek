@@ -58,7 +58,7 @@ function App() {
               path="/changePassword/:id"
               component={ChangePassword}
             />
-            {isAuth && <Route path="/admin" component={Admin} />}
+            {isAuth && <Route path="/hasan" component={Admin} />}
             <Route component={Page404} />
           </Switch>
         </BrowserRouter>
