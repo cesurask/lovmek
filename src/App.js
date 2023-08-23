@@ -49,15 +49,15 @@ function App() {
     // Customize the URL when the homepage is loaded
  //   history.push('/hasan');
  // }, []);
+ // <Route exact path="/">
+ // <Redirect to="/hasan" />     
+ // </Route>        
 
   return (
     <div className="App">
       <Suspense fallback={""}>
         <BrowserRouter>
           <Switch>
-           <Route exact path="/">
-           <Redirect to="/hasan" />     
-           </Route>        
             <AuthRouter exact path="/hasan" component={Login} />
 
             <AuthRouter  exact path="/unlock" component={UnlockScreenPage} />
