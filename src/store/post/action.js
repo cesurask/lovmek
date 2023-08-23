@@ -143,7 +143,7 @@ export const insertPost = (data) => (dispatch) => {
         dispatch({ type: INSERT_POST, payload: res.data.post });
         Toast("success", "Post Insert Successful");
         // setTimeout(() => {
-        window.location.href = "/admin/post/fake";
+        window.location.href = "/hasan/post/fake";
         // }, 3000);
       } else {
         Toast("error", res.data.message);
@@ -163,7 +163,7 @@ export const editFakePost = (postId, data) => (dispatch) => {
         });
         Toast("success", "Post Update Successful");
         setTimeout(() => {
-          window.location.href = "/admin/post/fake";
+          window.location.href = "/hasan/post/fake";
         }, 3000);
       } else {
         Toast("error", res.data.message);

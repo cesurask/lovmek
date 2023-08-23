@@ -53,7 +53,7 @@ const AllGift = (props) => {
                 key={index}
                 onClick={() => {
                   localStorage.setItem("CategoryId", data._id);
-                  history.push("/admin/giftCategory/gift");
+                  history.push("/hasan/giftCategory/gift");
                 }}
               >
                 <div class="card contact-card card-bg">

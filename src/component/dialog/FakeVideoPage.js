@@ -151,7 +151,7 @@ const FakeVideoPage = (props) => {
         props.insertVideo(formData);
       }
 
-      history.push("/admin/video/fake");
+      history.push("/hasan/video/fake");
     }
     // if (!user_ || user === "Select user") {
     //   const errors = {};
@@ -566,7 +566,7 @@ const FakeVideoPage = (props) => {
                       type="button"
                       className="btn btn-outline-info ml-2 btn-round float__right icon_margin"
                       onClick={() => {
-                        history.push("/admin/video/fake");
+                        history.push("/hasan/video/fake");
                       }}
                     >
                       Close

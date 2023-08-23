@@ -119,8 +119,8 @@ const GiftTable = (props) => {
               className="btn waves-effect waves-light btn-danger btn-sm float-left"
               onClick={() => {
                 GiftClick === null
-                  ? history.push("/admin/giftCategory/gift/dialog")
-                  : history.push("/admin/gift/dialog");
+                  ? history.push("/hasan/giftCategory/gift/dialog")
+                  : history.push("/hasan/gift/dialog");
               }}
               id="bannerDialog"
             >
@@ -159,7 +159,7 @@ const GiftTable = (props) => {
                       key={index}
                       onClick={() => {
                         localStorage.setItem("CategoryId", data._id);
-                        history.push("/admin/giftCategory/gift");
+                        history.push("/hasan/giftCategory/gift");
                       }}
                     >
                       <div class="card contact-card card-bg">

@@ -583,7 +583,7 @@ const FakePostPage = (props) => {
                       type="button"
                       className="btn btn-outline-info ml-2 btn-round float__right icon_margin"
                       onClick={() => {
-                        history.push("/admin/post/fake");
+                        history.push("/hasan/post/fake");
                       }}
                     >
                       Close

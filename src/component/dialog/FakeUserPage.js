@@ -141,7 +141,7 @@ const FakeUserPage = (props) => {
       }
 
       setTimeout(() => {
-        history.push("/admin/fakeUser");
+        history.push("/hasan/fakeUser");
       }, 3000);
     }
   };
@@ -692,7 +692,7 @@ const FakeUserPage = (props) => {
                       type="button"
                       className="btn btn-outline-info ml-2 btn-round float__right icon_margin"
                       onClick={() => {
-                        history.push("/admin/fakeUser");
+                        history.push("/hasan/fakeUser");
                       }}
                     >
                       Close

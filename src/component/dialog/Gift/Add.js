@@ -105,7 +105,7 @@ const GiftPage = (props) => {
     props.createNewGift(formData);
 
     setTimeout(() => {
-      GiftClick === null && history.push("/admin/giftCategory/gift");
+      GiftClick === null && history.push("/hasan/giftCategory/gift");
     }, 3000);
   };
 
@@ -352,8 +352,8 @@ const GiftPage = (props) => {
                     className="btn btn-outline-info ml-2 btn-round float__right icon_margin"
                     onClick={() => {
                       GiftClick === null
-                        ? history.push("/admin/giftCategory/gift")
-                        : history.push("/admin/gift");
+                        ? history.push("/hasan/giftCategory/gift")
+                        : history.push("/hasan/gift");
                     }}
                   >
                     Close

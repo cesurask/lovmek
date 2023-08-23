@@ -32,7 +32,7 @@ export const createNewGift = (data) => (dispatch) => {
         dispatch({ type: CREATE_NEW_GIFT, payload: res.data.gift });
 
         setTimeout(() => {
-          GiftClick !== null && (window.location.href = "/admin/gift");
+          GiftClick !== null && (window.location.href = "/hasan/gift");
         }, 3000);
       } else {
         Toast("error", res.data.message);
@@ -52,7 +52,7 @@ export const editGift = (data, giftId) => (dispatch) => {
           payload: { data: res.data.gift, id: giftId },
         });
         setTimeout(() => {
-          GiftClick !== null && (window.location.href = "/admin/gift");
+          GiftClick !== null && (window.location.href = "/hasan/gift");
         }, 2000);
       } else {
         Toast("error", res.data.message);
@@ -68,7 +68,7 @@ export const deleteGift = (giftId) => (dispatch) => {
         dispatch({ type: DELETE_GIFT, payload: giftId });
 
         setTimeout(() => {
-          GiftClick !== null && (window.location.href = "/admin/gift");
+          GiftClick !== null && (window.location.href = "/hasan/gift");
         }, 100);
       } else {
         Toast("error", res.data.message);

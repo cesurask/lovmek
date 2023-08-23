@@ -80,7 +80,7 @@ const GiftTable = (props) => {
 
   const handleEdit = (data) => {
     localStorage.setItem("SongDetail", JSON.stringify(data));
-    history.push("/admin/song/dialog");
+    history.push("/hasan/song/dialog");
     // dispatch({ type: OPEN_GIFT_DIALOG, payload: data });
   };
 
@@ -121,7 +121,7 @@ const GiftTable = (props) => {
                     className="btn waves-effect waves-light btn-danger btn-sm float-left"
                     onClick={() => {
                       localStorage.removeItem("SongDetail");
-                      history.push("/admin/song/dialog");
+                      history.push("/hasan/song/dialog");
                     }}
                     id="bannerDialog"
                   >

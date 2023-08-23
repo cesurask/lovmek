@@ -113,12 +113,12 @@ const FakeVideo = (props) => {
 
   const handleOpen = () => {
     localStorage.removeItem("fakeRelite");
-    history.push("/admin/video/dialog");
+    history.push("/hasan/video/dialog");
   };
 
   const handleEdit = (data) => {
     localStorage.setItem("fakeRelite", JSON.stringify(data));
-    history.push("/admin/video/dialog");
+    history.push("/hasan/video/dialog");
   };
   return (
     <>
@@ -278,7 +278,7 @@ const FakeVideo = (props) => {
                                   "VideoDetail",
                                   JSON.stringify(data)
                                 );
-                                history.push("/admin/video/detail");
+                                history.push("/hasan/video/detail");
                               }}
                             >
                               Detail

@@ -122,7 +122,7 @@ const SongPage = (props) => {
       props.createNewSong(formData);
     }
     setTimeout(() => {
-      history.push("/admin/song");
+      history.push("/hasan/song");
     }, 2000)
   };
 
@@ -325,7 +325,7 @@ const SongPage = (props) => {
                   <button
                     type="button"
                     className="btn btn-outline-info ml-2 btn-round float__right icon_margin"
-                    onClick={() => { localStorage.removeItem("SongDetail"); history.push("/admin/song") }}
+                    onClick={() => { localStorage.removeItem("SongDetail"); history.push("/hasan/song") }}
                   >
                     Close
                   </button>

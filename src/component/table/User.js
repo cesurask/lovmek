@@ -103,11 +103,11 @@ const UserTable = (props) => {
 
   const handleUserInfo = (user) => {
     localStorage.setItem("user", JSON.stringify(user));
-    history.push("/admin/user/detail");
+    history.push("/hasan/user/detail");
   };
   const handleUserHistory = (user) => {
     localStorage.setItem("user", JSON.stringify(user));
-    history.push("/admin/user/history");
+    history.push("/hasan/user/history");
   };
  
 

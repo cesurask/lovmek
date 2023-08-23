@@ -72,7 +72,7 @@ const GiftCategoryTable = (props) => {
 
   const openGifts = (data) => {
     localStorage.setItem("Category", JSON.stringify(data));
-    history.push("/admin/giftCategory/gift");
+    history.push("/hasan/giftCategory/gift");
   };
 
   return (

@@ -64,7 +64,7 @@ const PostDetail = (props) => {
 
   const handleUserInfo = (user) => {
     localStorage.setItem("user", JSON.stringify(user));
-    history.push("/admin/user/detail");
+    history.push("/hasan/user/detail");
   };
 
   return (

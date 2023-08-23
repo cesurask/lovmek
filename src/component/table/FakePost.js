@@ -114,12 +114,12 @@ const FakePost = (props) => {
 
   const handleOpen = () => {
     localStorage.removeItem("fakePost");
-    history.push("/admin/post/dialog");
+    history.push("/hasan/post/dialog");
   };
 
   const handleEdit = (data) => {
     localStorage.setItem("fakePost", JSON.stringify(data));
-    history.push("/admin/post/dialog");
+    history.push("/hasan/post/dialog");
   };
   return (
     <>
@@ -276,7 +276,7 @@ const FakePost = (props) => {
                                   "PostDetail",
                                   JSON.stringify(data)
                                 );
-                                history.push("/admin/post/detail");
+                                history.push("/hasan/post/detail");
                               }}
                             >
                               Detail

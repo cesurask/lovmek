@@ -150,7 +150,7 @@ const FakeLiveStreamingPage = (props) => {
     }
 
     setTimeout(() => {
-      history.push("/admin/fakeLiveStreaming");
+      history.push("/hasan/fakeLiveStreaming");
     }, 3000);
   };
 
@@ -424,7 +424,7 @@ const FakeLiveStreamingPage = (props) => {
                     type="button"
                     className="btn btn-outline-info ml-2 btn-round float__right icon_margin"
                     onClick={() => {
-                      history.push("/admin/fakeLiveStreaming");
+                      history.push("/hasan/fakeLiveStreaming");
                     }}
                   >
                     Close

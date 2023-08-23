@@ -114,11 +114,11 @@ const FakeUser = (props) => {
 
   const handleUserInfo = (user) => {
     localStorage.setItem("user", JSON.stringify(user));
-    history.push("/admin/user/detail");
+    history.push("/hasan/user/detail");
   };
   const handleUserHistory = (user) => {
     localStorage.setItem("user", JSON.stringify(user));
-    history.push("/admin/user/history");
+    history.push("/hasan/user/history");
   };
 
   const getAllUser = () => {
@@ -135,12 +135,12 @@ const FakeUser = (props) => {
 
   const handleAddFakeUser = () => {
     localStorage.removeItem("fakeUser");
-    history.push("/admin/fake/fakeUserdialog");
+    history.push("/hasan/fake/fakeUserdialog");
   };
   const handleEdit = (data) => {
     localStorage.setItem("fakeUser", JSON.stringify(data));
 
-    history.push("/admin/fake/fakeUserdialog");
+    history.push("/hasan/fake/fakeUserdialog");
   };
 
   return (

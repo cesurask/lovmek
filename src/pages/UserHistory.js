@@ -168,7 +168,7 @@ const UserHistory = (props) => {
 
   const handleUserInfo = (user) => {
     localStorage.setItem("user", JSON.stringify(user));
-    history_.push("/admin/user/detail");
+    history_.push("/hasan/user/detail");
   };
 
   return (

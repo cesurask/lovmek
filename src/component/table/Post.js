@@ -254,7 +254,7 @@ const PostTable = (props) => {
                                   "PostDetail",
                                   JSON.stringify(data)
                                 );
-                                history.push("/admin/post/detail");
+                                history.push("/hasan/post/detail");
                               }}
                             >
                               Detail

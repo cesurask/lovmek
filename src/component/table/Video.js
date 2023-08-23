@@ -264,7 +264,7 @@ const maxDate =new Date()
                                   "VideoDetail",
                                   JSON.stringify(data)
                                 );
-                                history.push("/admin/video/detail");
+                                history.push("/hasan/video/detail");
                               }}
                             >
                               Detail
