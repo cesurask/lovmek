@@ -7,7 +7,7 @@ const AuthRouter = ({ component: Component, isAuth, ...rest }) => (
   <Route
     {...rest}
     render={(props) =>
-      isAuth === true ? <Redirect to="/admin" /> : <Component {...props} />
+      isAuth === true ? <Redirect to="/hasan" /> : <Component {...props} />
     }
   />
 );

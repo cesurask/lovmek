@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect } from "react";
 
 // routing
-import { Switch, BrowserRouter, Route } from "react-router-dom";
+import { Switch, BrowserRouter, Route, Redirect } from "react-router-dom";
 //redux
 import { useDispatch, useSelector } from "react-redux";
 //types
@@ -43,12 +43,21 @@ function App() {
       manager.clear();
     }; //eslint-disable-next-line
   }, []);
+ // const history = useHistory();
+
+ // useEffect(() => {
+    // Customize the URL when the homepage is loaded
+ //   history.push('/hasan');
+ // }, []);
 
   return (
     <div className="App">
       <Suspense fallback={""}>
         <BrowserRouter>
           <Switch>
+           <Route exact path="/">
+           <Redirect to="/hasan" />     
+           </Route>        
             <AuthRouter exact path="/hasan" component={Login} />
 
             <AuthRouter  exact path="/unlock" component={UnlockScreenPage} />

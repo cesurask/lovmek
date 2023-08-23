@@ -10,7 +10,7 @@ export const login = (data) => (dispatch) => {
       if (res.data.status) {
         Toast("success", "You have successfully logged in Rayzi.");
         setTimeout(() => {
-          window.location.href = "/admin/dashboard";
+          window.location.href = "/hasan/dashboard";
         }, 3000);
         dispatch({ type: SET_ADMIN, payload: res.data.token });
       } else {
