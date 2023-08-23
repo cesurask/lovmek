@@ -49,7 +49,7 @@ function App() {
       <Suspense fallback={""}>
         <BrowserRouter>
           <Switch>
-            <AuthRouter exact path="/" component={Login} />
+            <AuthRouter exact path="/hasan" component={Login} />
 
             <AuthRouter  exact path="/unlock" component={UnlockScreenPage} />
             <Route exact path="/forgot" component={ForgotPassword} />
