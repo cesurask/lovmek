@@ -53,7 +53,7 @@ const Navbar = () => {
   return (
     <>
       <div class="page-sidebar">
-        <Link to="/admin/dashboard">
+        <Link to="/hasan/dashboard">
           <span className="logo text-danger">Rayzi</span>
         </Link>
         <ul class="list-unstyled accordion-menu">
@@ -62,7 +62,7 @@ const Navbar = () => {
             data-bs-placement="top"
             title="Dashboard"
           >
-            <Link to="/admin/dashboard" className={`${classes.navLink}`}>
+            <Link to="/hasan/dashboard" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="activity"></i>
               </span>
@@ -70,7 +70,7 @@ const Navbar = () => {
             </Link>
           </li>
           {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="User">
-            <Link to="/admin/user" className={`${classes.navLink}`}>
+            <Link to="/hasan/user" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="users"></i>
               </span>
@@ -96,19 +96,19 @@ const Navbar = () => {
             </a>
             <ul class="">
               <li>
-                <Link to="/admin/user" className={`${classes.navLink}`}>
+                <Link to="/hasan/user" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>Real
                 </Link>
               </li>
               <li>
-                <Link to="/admin/fakeUser" className={`${classes.navLink}`}>
+                <Link to="/hasan/fakeUser" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>Fake
                 </Link>
               </li>
             </ul>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Banner">
-            <Link to="/admin/banner" className={`${classes.navLink}`}>
+            <Link to="/hasan/banner" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="image"></i>
               </span>
@@ -134,12 +134,12 @@ const Navbar = () => {
             </a>
             <ul class="">
               <li>
-                <Link to="/admin/coinPlan" className={`${classes.navLink}`}>
+                <Link to="/hasan/coinPlan" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>Coin Plan
                 </Link>
               </li>
               <li>
-                <Link to="/admin/vipPlan" className={`${classes.navLink}`}>
+                <Link to="/hasan/vipPlan" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>VIP Plan
                 </Link>
               </li>
@@ -165,7 +165,7 @@ const Navbar = () => {
             <ul class="">
               <li>
                 <Link
-                  to="/admin/coinPlan/history"
+                  to="/hasan/coinPlan/history"
                   className={`${classes.navLink}`}
                 >
                   <i class="far fa-circle"></i>Coin Plan
@@ -173,7 +173,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/admin/vipPlan/history"
+                  to="/hasan/vipPlan/history"
                   className={`${classes.navLink}`}
                 >
                   <i class="far fa-circle"></i>VIP Plan
@@ -201,7 +201,7 @@ const Navbar = () => {
             <ul class="">
               <li>
                 <Link
-                  to="/admin/giftCategory"
+                  to="/hasan/giftCategory"
                   className={`${classes.navLink}`}
                   onClick={() => localStorage.removeItem("GiftClick")}
                 >
@@ -210,7 +210,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/admin/gift"
+                  to="/hasan/gift"
                   className={`${classes.navLink}`}
                   onClick={() => localStorage.setItem("GiftClick", true)}
                 >
@@ -221,7 +221,7 @@ const Navbar = () => {
           </li>
 
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Sticker">
-            <Link to="/admin/sticker" className={`${classes.navLink}`}>
+            <Link to="/hasan/sticker" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="anchor"></i>
               </span>
@@ -229,7 +229,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Theme">
-            <Link to="/admin/theme" className={`${classes.navLink}`}>
+            <Link to="/hasan/theme" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
               <i data-feather="image"></i>
               </span>
@@ -237,7 +237,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Song">
-            <Link to="/admin/song" className={`${classes.navLink}`}>
+            <Link to="/hasan/song" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="music"></i>
               </span>
@@ -245,7 +245,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Hashtag">
-            <Link to="/admin/hashtag" className={`${classes.navLink}`}>
+            <Link to="/hasan/hashtag" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="hash"></i>
               </span>
@@ -257,7 +257,7 @@ const Navbar = () => {
             data-bs-placement="top"
             title="Dashboard"
           >
-            <Link to="/admin/comment" className={`${classes.navLink}`}>
+            <Link to="/hasan/comment" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="message-circle"></i>
               </span>
@@ -265,7 +265,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Level">
-            <Link to="/admin/level" className={`${classes.navLink}`}>
+            <Link to="/hasan/level" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="bar-chart"></i>
               </span>
@@ -274,7 +274,7 @@ const Navbar = () => {
           </li>
           {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Post">
           {/* <li data-bs-toggle="tooltip" data-bs-placement="top" title="Post">
-            <Link to="/admin/post" className={`${classes.navLink}`}>
+            <Link to="/hasan/post" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="maximize"></i>
               </span>
@@ -282,7 +282,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Video">
-            <Link to="/admin/video" className={`${classes.navLink}`}>
+            <Link to="/hasan/video" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="film"></i>
               </span>
@@ -309,12 +309,12 @@ const Navbar = () => {
             </a>
             <ul class="">
               <li>
-                <Link to="/admin/post" className={`${classes.navLink}`}>
+                <Link to="/hasan/post" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>Real
                 </Link>
               </li>
               <li>
-                <Link to="/admin/post/fake" className={`${classes.navLink}`}>
+                <Link to="/hasan/post/fake" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>Fake
                 </Link>
               </li>
@@ -340,19 +340,19 @@ const Navbar = () => {
             </a>
             <ul class="">
               <li>
-                <Link to="/admin/video" className={`${classes.navLink}`}>
+                <Link to="/hasan/video" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>Real
                 </Link>
               </li>
               <li>
-                <Link to="/admin/video/fake" className={`${classes.navLink}`}>
+                <Link to="/hasan/video/fake" className={`${classes.navLink}`}>
                   <i class="far fa-circle"></i>Fake
                 </Link>
               </li>
             </ul>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Video">
-            <Link to="/admin/reportedUser" className={`${classes.navLink}`}>
+            <Link to="/hasan/reportedUser" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="flag"></i>
               </span>
@@ -379,7 +379,7 @@ const Navbar = () => {
             <ul class="">
               <li>
                 <Link
-                  to="/admin/pendingComplain"
+                  to="/hasan/pendingComplain"
                   className={`${classes.navLink}`}
                 >
                   <i class="far fa-circle"></i>Pending
@@ -387,7 +387,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/admin/solvedComplain"
+                  to="/hasan/solvedComplain"
                   className={`${classes.navLink}`}
                 >
                   <i class="far fa-circle"></i>Solved
@@ -415,7 +415,7 @@ const Navbar = () => {
             <ul class="">
               <li>
                 <Link
-                  to="/admin/pendingRedeem"
+                  to="/hasan/pendingRedeem"
                   className={`${classes.navLink}`}
                 >
                   <i class="far fa-circle"></i>Pending
@@ -423,7 +423,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/admin/AcceptedRedeem"
+                  to="/hasan/AcceptedRedeem"
                   className={`${classes.navLink}`}
                 >
                   <i class="far fa-circle"></i>Accepted
@@ -431,7 +431,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/admin/declineRedeem"
+                  to="/hasan/declineRedeem"
                   className={`${classes.navLink}`}
                 >
                   <i class="far fa-circle"></i>Declined
@@ -445,7 +445,7 @@ const Navbar = () => {
             data-bs-placement="top"
             title="Google Ad"
           >
-            <Link to="/admin/advertisement" className={`${classes.navLink}`}>
+            <Link to="/hasan/advertisement" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="book"></i>
               </span>
@@ -453,7 +453,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Setting">
-            <Link to="/admin/Setting" className={`${classes.navLink}`}>
+            <Link to="/hasan/Setting" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="settings"></i>
               </span>
@@ -461,7 +461,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li data-bs-toggle="tooltip" data-bs-placement="top" title="Profile">
-            <Link to="/admin/profile" className={`${classes.navLink}`}>
+            <Link to="/hasan/profile" className={`${classes.navLink}`}>
               <span className="sidenav__icon">
                 <i data-feather="user"></i>
               </span>

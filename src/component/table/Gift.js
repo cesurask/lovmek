@@ -94,12 +94,12 @@ const GiftTable = (props) => {
             >
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <Link to="/admin/dashboard" className="text-danger">
+                  <Link to="/hasan/dashboard" className="text-danger">
                     Dashboard
                   </Link>
                 </li>
                 <li className="breadcrumb-item">
-                  <Link to="/admin/giftCategory" className="text-danger">
+                  <Link to="/hasan/giftCategory" className="text-danger">
                     Category
                   </Link>
                 </li>

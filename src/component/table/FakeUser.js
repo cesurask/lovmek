@@ -157,7 +157,7 @@ const FakeUser = (props) => {
             >
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <Link to="/admin/dashboard" className="text-danger">
+                  <Link to="/hasan/dashboard" className="text-danger">
                     Dashboard
                   </Link>
                 </li>
@@ -224,7 +224,7 @@ const FakeUser = (props) => {
         <div className=" mb-2">
           {/* <div>
             <Link
-              to="/admin/fake"
+              to="/hasan/fake"
               className="btn text-white"
               style={{
                 marginRight: 5,
@@ -234,7 +234,7 @@ const FakeUser = (props) => {
               App
             </Link>
             <Link
-              to="/admin/api"
+              to="/hasan/api"
               className="btn text-white"
               style={{
                 marginRight: 5,

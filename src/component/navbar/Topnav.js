@@ -94,7 +94,7 @@ const Topnav = (props) => {
                 >
                   <Link
                     class="dropdown-item"
-                    to="/admin/profile"
+                    to="/hasan/profile"
                     onClick={handleDrawer}
                   >
                     <i data-feather="user"></i>Profile
@@ -112,7 +112,7 @@ const Topnav = (props) => {
                   <div class="dropdown-divider"></div>
                   <Link
                     class="dropdown-item"
-                    to="/admin/setting"
+                    to="/hasan/setting"
                     onClick={handleDrawer}
                   >
                     <i data-feather="settings"></i>Settings

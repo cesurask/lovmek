@@ -140,10 +140,10 @@ const SongPage = (props) => {
             >
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <Link to="/admin/dashboard" className="text-danger">Dashboard</Link>
+                  <Link to="/hasan/dashboard" className="text-danger">Dashboard</Link>
                 </li>
                 <li className="breadcrumb-item">
-                  <Link to="/admin/song" className="text-danger">Song</Link>
+                  <Link to="/hasan/song" className="text-danger">Song</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   Dialog

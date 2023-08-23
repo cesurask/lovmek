@@ -185,12 +185,12 @@ const UserHistory = (props) => {
             >
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <Link to="/admin/dashboard" className="text-danger">
+                  <Link to="/hasan/dashboard" className="text-danger">
                     Dashboard
                   </Link>
                 </li>
                 <li className="breadcrumb-item">
-                  <Link to="/admin/user" className="text-danger">
+                  <Link to="/hasan/user" className="text-danger">
                     User
                   </Link>
                 </li>
