@@ -5,7 +5,7 @@ import { SET_ADMIN, UNSET_ADMIN, UPDATE_PROFILE } from "./types";
 
 export const login = (data) => (dispatch) => {
   axios
-    .post("admin/login", data)
+    .post("/admin/login", data)
     .then((res) => {
       if (res.data.status) {
         Toast("success", "You have successfully logged in Rayzi.");
@@ -23,7 +23,7 @@ export const login = (data) => (dispatch) => {
 
 export const sendEmail = (data) => (dispatch) => {
   axios
-    .post("admin/sendEmail", data)
+    .post("/admin/sendEmail", data)
     .then((res) => {
       if (res.data.status) {
         Toast(
@@ -39,7 +39,7 @@ export const sendEmail = (data) => (dispatch) => {
 
 export const getProfile = () => (dispatch) => {
   axios
-    .get("admin/profile")
+    .get("/admin/profile")
     .then((res) => {
     
       if (res.data.status) {
